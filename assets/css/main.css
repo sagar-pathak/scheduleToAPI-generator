@@ -1,0 +1,95 @@
+/*Font Loded*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body{
+  background: url(../img/bg.jpg);
+}
+
+.btn-custom {
+  color: #bdc3c7;
+  font-size: 18px;
+  border: 1px solid #bdc3c7;
+}
+.btn-custom:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+#apigenerator-table {
+  padding-top: 50px;
+}
+#apigenerator-table .apigenerator {
+  marign: 0;
+  padding: 0;
+  font-family: 'Robot', sans-serif;
+}
+#apigenerator-table .apigenerator .apigenerator-table {
+  padding-bottom: 30px;
+}
+#apigenerator-table .apigenerator .apigenerator-table .apigenerator-header {
+  position: relative;
+  background: #34495e;
+  padding: 22px 22px;
+  text-align: center;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.apigenerator-title{
+	color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+#apigenerator-table .apigenerator .apigenerator-table .apigenerator-header = {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+#apigenerator-table .apigenerator .apigenerator-table .apigenerator-header .apigenerator-rate {
+  font-size: 70px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+#apigenerator-table .apigenerator .apigenerator-table .apigenerator-header .apigenerator-rate sup {
+  font-size: 24px;
+  position: relative;
+  top: -30px;
+  color: #bdc3c7;
+}
+#apigenerator-table .apigenerator .apigenerator-table .apigenerator-header .apigenerator-rate span {
+  font-size: 16px;
+  color: #bdc3c7;
+  text-transform: uppercase;
+}
+#apigenerator-table .apigenerator .apigenerator-list {
+  padding: 20px 0 40px 0;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+}
+#apigenerator-table .apigenerator .apigenerator-list ul {
+  padding: 0px;
+  display: table;
+  margin: 0px auto;
+}
+#apigenerator-table .apigenerator .apigenerator-list ul li {
+  list-style: none;
+  border-bottom: 1px solid #EAECEB;
+  color: #bdc3c7;
+  font-size: 16px;
+  line-height: 42px;
+}
+#apigenerator-table .apigenerator .apigenerator-list ul li:last-child {
+  border: none;
+}
+#apigenerator-table .apigenerator .apigenerator-list ul li i {
+  margin-right: 12px;
+  color: #bdc3c7;
+}
+#apigenerator-table .apigenerator .apigenerator-list ul li span {
+  color: #34495e;
+}
